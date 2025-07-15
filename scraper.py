@@ -2,6 +2,7 @@ import os
 import json
 import time
 import logging
+import re
 from bs4 import BeautifulSoup
 import requests
 import zoneinfo
