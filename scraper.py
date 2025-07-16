@@ -187,7 +187,7 @@ def update_results_json(json_file_path):
         else:
             logging.warning(f"Failed to parse page for {url}")
             scraped_data[url] = {"url": url, "format": "", "stage": "", "veto": [], "maps": []}
-        time.sleep(1)  # Delay to avoid rate limiting
+        #time.sleep(1)  # Delay to avoid rate limiting
 
     # Update each entry in results_data with scraped data
     for match in results_data:
