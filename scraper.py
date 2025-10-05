@@ -8,7 +8,6 @@ import requests
 import zoneinfo
 import tzlocal
 
-# Logging configuration
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
